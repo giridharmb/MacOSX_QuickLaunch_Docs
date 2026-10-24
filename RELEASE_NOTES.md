@@ -1,5 +1,13 @@
 # Release Notes
 
+## 1.4.1 — 2026-10-24
+
+- Fixed: a big empty gap under the first link in the Manage window.
+- Fixed: Preferences opened narrower than its content, cut off part of the Advanced tab, and showed "Untitled" as its title.
+- Fixed: the Leader key box in the link editor was nearly invisible.
+- The Manage window has a minimum size so rows can't be squeezed, and the Insights sheet is taller.
+- Insights no longer suggests adding QuickLaunch itself.
+
 ## 1.4.0 — 2026-10-24
 
 - **Favorites:** star links to pin them in a Favorites section at the top of the menu. They also come first in the search launcher and get first pick of leader-key letters.
