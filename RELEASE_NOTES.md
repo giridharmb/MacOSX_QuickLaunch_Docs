@@ -1,5 +1,11 @@
 # Release Notes
 
+## 1.1.0 — 2026-10-24
+
+- New app icon.
+- **Show in menu bar** preference (Settings › General). You can hide the menu bar icon and your shortcuts keep working; open QuickLaunch again to get back to the Manage window. ⌘-dragging the icon out of the menu bar also turns this off.
+- The menu bar icon now matches the app icon.
+
 ## 1.0.0 — 2026-10-24
 
 First release.

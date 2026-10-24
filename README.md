@@ -1,3 +1,5 @@
+<img src="images/icon.png" width="128" alt="QuickLaunch icon">
+
 # QuickLaunch for macOS
 
 QuickLaunch lives in your menu bar and opens anything with a keyboard shortcut. You can bind
@@ -29,7 +31,7 @@ Requires macOS 14 Sonoma or later. QuickLaunch does not need Accessibility permi
 - **Pause all shortcuts** with one click, for example while gaming or screen sharing.
 - **Choose the browser** used for URL links.
 - **iCloud Drive sync** across your Macs, plus JSON **Import / Export** (merge or replace).
-- **Launch at login** and an optional Dock icon.
+- **Launch at login**, plus options to show or hide the menu bar icon and the Dock icon.
 
 ## Getting started
 
@@ -75,6 +77,9 @@ Keyboard Shortcuts, or choose another combination.
 It can detect system shortcuts, other QuickLaunch links, and apps that claim their hotkeys
 exclusively. Some apps register hotkeys non-exclusively, and in-app menu shortcuts are invisible to
 other apps; macOS offers no way to see those. Use *Test mode* to confirm a shortcut reaches QuickLaunch.
+
+**I hid the menu bar icon. How do I get back to QuickLaunch?**
+Open QuickLaunch again from Finder, Spotlight or Launchpad. The Manage window opens, and your shortcuts keep working the whole time.
 
 **Where are my settings stored?**
 `~/Library/Application Support/QuickLaunch/config.json` (Settings › About › Open Settings Folder).
