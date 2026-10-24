@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📘 Documentation
+    url: https://giridharmb.github.io/MacOSX_QuickLaunch_Docs/docs.html
+    about: How every feature and setting works.
+  - name: 🛟 Troubleshooting & FAQ
+    url: https://giridharmb.github.io/MacOSX_QuickLaunch_Docs/support.html
+    about: Answers to common questions — please check here first.

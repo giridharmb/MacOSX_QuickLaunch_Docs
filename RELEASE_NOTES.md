@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.3.0 — 2026-10-24
+
+- **Preferences redesigned** as a classic toolbar window: General, Shortcuts, Sync, Advanced and About. About shows the app icon, version, and links to docs and support.
+- **Live shortcut test:** after recording, press the shortcut once to confirm it reaches QuickLaunch. If it never arrives, something else is intercepting it. Click any status icon to test again.
+- **More conflicts detected:** custom App Shortcuts from System Settings and Services keyboard shortcuts, with no permission needed.
+- Fixed: the leader-key overlay could be cut off at the top and bottom.
+
 ## 1.2.0 — 2026-10-24
 
 New

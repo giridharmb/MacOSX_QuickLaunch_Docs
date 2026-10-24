@@ -2,6 +2,8 @@
 
 # QuickLaunch for macOS
 
+**Website:** https://giridharmb.github.io/MacOSX_QuickLaunch_Docs/ · [Docs](https://giridharmb.github.io/MacOSX_QuickLaunch_Docs/docs.html) · [Support](https://giridharmb.github.io/MacOSX_QuickLaunch_Docs/support.html) · [Release notes](RELEASE_NOTES.md)
+
 QuickLaunch lives in your menu bar and opens anything with a keyboard shortcut. You can bind
 apps, websites, files and folders, shell commands, and Shortcuts.app shortcuts. Before a shortcut
 is saved, QuickLaunch checks that it is free, and your setup syncs through iCloud Drive.

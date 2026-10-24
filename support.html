@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuickLaunch Support</title>
+  <meta name="description" content="Get help with QuickLaunch: FAQ, troubleshooting, and how to report a problem or request a feature.">
+  <link rel="icon" href="images/icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="images/icon.png" alt="">QuickLaunch</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="docs.html">Docs</a>
+      <a href="support.html" aria-current="page">Support</a>
+      <a href="releases.html">Release Notes</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>How can we help?</h2>
+    <p class="section-lead">Most answers are below. If yours isn't, open an issue on GitHub and we'll take a look.</p>
+    <div class="grid">
+      <a class="card" href="https://github.com/giridharmb/MacOSX_QuickLaunch_Docs/issues/new?template=bug_report.yml">
+        <span class="emoji">🐞</span><h3>Report a problem</h3><p>Something isn't working the way it should.</p>
+      </a>
+      <a class="card" href="https://github.com/giridharmb/MacOSX_QuickLaunch_Docs/issues/new?template=feature_request.yml">
+        <span class="emoji">💡</span><h3>Request a feature</h3><p>An idea that would make QuickLaunch better for you.</p>
+      </a>
+      <a class="card" href="docs.html">
+        <span class="emoji">📘</span><h3>Read the docs</h3><p>A complete guide to every feature and setting.</p>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Troubleshooting</h2>
+    <details open>
+      <summary>A shortcut does nothing</summary>
+      <ol>
+        <li>Open <strong>Manage QuickLaunch…</strong> and click the shortcut's status icon.</li>
+        <li>Make sure shortcuts aren't paused. The menu shows <strong>Pause All Shortcuts</strong> or <strong>Paused while … is in front</strong>.</li>
+        <li>Click <strong>Test Now</strong> and press the shortcut. If the press never arrives, another app or macOS is intercepting it. Choose a different combination; anything with <kbd>⌃⌥⌘</kbd> is a safe bet.</li>
+        <li>Check that <strong>Test mode</strong> is off (Settings › Shortcuts).</li>
+      </ol>
+    </details>
+    <details>
+      <summary>The status icon is red: “already registered by another app”</summary>
+      <p>Another running app has claimed that combination. Pick a different one, or remove it in the other app first.</p>
+    </details>
+    <details>
+      <summary>The status icon is orange</summary>
+      <p>The shortcut works, but the same combination is also a macOS shortcut, a custom App Shortcut, a Service, or an app menu item. QuickLaunch takes it over everywhere. Click the icon to see exactly where else it's used.</p>
+    </details>
+    <details>
+      <summary>Window cycling or placement doesn't work</summary>
+      <p>These need the Accessibility permission. Open <strong>Settings › Advanced</strong> and click <strong>Grant Access…</strong>, then turn QuickLaunch on in System Settings › Privacy &amp; Security › Accessibility. Some apps, such as full-screen games, don't allow their windows to be moved.</p>
+    </details>
+    <details>
+      <summary>iCloud sync says iCloud Drive isn't enabled</summary>
+      <p>Turn on iCloud Drive in System Settings › Apple Account › iCloud, then turn sync off and on again in QuickLaunch.</p>
+    </details>
+    <details>
+      <summary>I hid the menu bar icon. How do I get back?</summary>
+      <p>Open QuickLaunch again from Finder, Spotlight or Launchpad. The Manage window opens, and your shortcuts keep working the whole time.</p>
+    </details>
+    <details>
+      <summary>macOS says QuickLaunch can't be opened</summary>
+      <p>Download the latest version from the <a href="https://github.com/giridharmb/MacOSX_QuickLaunch_Docs/releases/latest">Releases page</a>. If you still see the message, Control-click the app in Finder, choose <strong>Open</strong>, then confirm.</p>
+    </details>
+    <details>
+      <summary>Where are my settings stored?</summary>
+      <p><code>~/Library/Application Support/QuickLaunch/config.json</code>, plus the iCloud Drive copy if sync is on. Settings › Advanced › <strong>Open Settings Folder</strong> takes you there.</p>
+    </details>
+  </section>
+
+  <section>
+    <h2>When you report a problem</h2>
+    <p class="section-lead">Including these makes a fix much faster:</p>
+    <ul>
+      <li>QuickLaunch version (Settings › About) and macOS version</li>
+      <li>The shortcut and what it should open</li>
+      <li>What you expected, and what happened instead</li>
+      <li>Any other launcher or keyboard tools you run (Raycast, Alfred, Karabiner, BetterTouchTool, …)</li>
+    </ul>
+    <div class="callout">Please don't post passwords, tokens or other private data in issues. They're public.</div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Giridhar Bhujanga</span>
+    <span><a href="docs.html">Docs</a> · <a href="releases.html">Release Notes</a> · <a href="https://github.com/giridharmb/MacOSX_QuickLaunch_Docs/issues/new/choose">Report a problem</a></span>
+  </div>
+</footer>
+</body>
+</html>
