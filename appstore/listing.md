@@ -18,7 +18,7 @@ Paste these into App Store Connect. Character limits are Apple's.
 | Privacy Policy URL | https://giridharmb.github.io/MacOSX_QuickLaunch_Docs/privacy.html |
 | App Privacy | Data Not Collected |
 | Export compliance | Uses only exempt encryption (HTTPS) — `ITSAppUsesNonExemptEncryption = NO` is in the build |
-| Screenshots | `appstore/screenshots/01–04.png` (2880×1800) |
+| Screenshots | `appstore/screenshots/01-menu … 08-settings.png` (8 × 2880×1800, upload in this order) |
 
 ## Promotional text (170)
 
