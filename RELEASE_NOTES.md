@@ -1,5 +1,13 @@
 # Release Notes
 
+## 1.4.0 — 2026-10-24
+
+- **Favorites:** star links to pin them in a Favorites section at the top of the menu. They also come first in the search launcher and get first pick of leader-key letters.
+- **Website icons:** URL links show the site's own icon, fetched directly from the site and cached.
+- **Custom icons:** give any link an image or another app's icon (choose or drag and drop). Custom icons sync through iCloud.
+- Settings › Advanced › **Refresh Website Icons**.
+- Settings written by older versions keep loading unchanged.
+
 ## 1.3.0 — 2026-10-24
 
 - **Preferences redesigned** as a classic toolbar window: General, Shortcuts, Sync, Advanced and About. About shows the app icon, version, and links to docs and support.

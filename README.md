@@ -18,6 +18,8 @@ Requires macOS 14 Sonoma or later. QuickLaunch does not need Accessibility permi
 - **Search launcher**: a Spotlight-style box with fuzzy search over all your links. Your most used links come first.
   Use ↑/↓ and ↩ to choose, or ⌘1–⌘9.
 - **Cheat sheet**: shows every shortcut you have, grouped, over the current screen.
+- **Favorites**: star links to pin them at the top of the menu; they also come first in search.
+- **Real icons**: website links show the site's own icon; any link can use a custom image or another app's icon.
 - **Workspaces**: one shortcut opens several links at once, for example Slack, Chrome on a dashboard and iTerm.
 - **Add the frontmost app** from the menu bar menu in one click.
 
