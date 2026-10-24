@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>QuickLaunch</title>
+    <link>https://github.com/giridharmb/MacOSX_QuickLaunch_Docs</link>
+    <item>
+      <title>Version 1.2.0</title>
+      <pubDate>Sat, 24 Oct 2026 15:11:11 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://github.com/giridharmb/MacOSX_QuickLaunch_Docs/blob/main/RELEASE_NOTES.md</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/giridharmb/MacOSX_QuickLaunch_Docs/releases/download/v1.2.0/QuickLaunch-1.2.0.zip" sparkle:edSignature="nt+LsYaWRDZWXtrVJ0cEHZL6KzGfkvBpnLVVScEkh4/GG8J4Ly5wwL7rPUsGJzdKC+8U8k0c5U9Z5TWZY1+lBg==" length="3177363" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>

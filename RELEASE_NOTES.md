@@ -1,5 +1,20 @@
 # Release Notes
 
+## 1.2.0 — 2026-10-24
+
+New
+- **Leader key**: one shortcut, then a single letter, opens any link. Letters are automatic or can be set per link.
+- **Search launcher** with fuzzy search, most used links first, and ⌘1–⌘9.
+- **Cheat sheet** overlay listing all your shortcuts.
+- **Workspaces**: one shortcut opens several links in order.
+- **Pause shortcuts while chosen apps are in front** (games, VMs, remote desktop).
+- **Add the frontmost app** straight from the menu bar menu.
+- **Insights**: usage counts, unused shortcuts, and suggestions for apps you open often by hand.
+- **Cycle windows** of the frontmost app *(Accessibility, optional)*.
+- **Window placement** when launching apps: halves, maximize, center *(Accessibility, optional)*.
+- **App menu conflict scan**: warns about shortcuts used in running apps' menus *(Accessibility, optional)*.
+- **Automatic updates** (Sparkle), with "Check for Updates…" in the menu and in Settings.
+
 ## 1.1.0 — 2026-10-24
 
 - New app icon.

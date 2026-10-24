@@ -10,6 +10,28 @@ Requires macOS 14 Sonoma or later. QuickLaunch does not need Accessibility permi
 
 ## Features
 
+### Quick access
+- **Leader key**: press one shortcut (for example ⌃Space), then a single letter, such as C for Chrome.
+  Letters are picked automatically from link names, or you can set your own. One combination covers everything.
+- **Search launcher**: a Spotlight-style box with fuzzy search over all your links. Your most used links come first.
+  Use ↑/↓ and ↩ to choose, or ⌘1–⌘9.
+- **Cheat sheet**: shows every shortcut you have, grouped, over the current screen.
+- **Workspaces**: one shortcut opens several links at once, for example Slack, Chrome on a dashboard and iTerm.
+- **Add the frontmost app** from the menu bar menu in one click.
+
+### Smarter shortcuts
+- **Pause in certain apps**: shortcuts switch off automatically while chosen apps are in front, such as games,
+  VMs or Screen Sharing.
+- **Cycle windows** *(Accessibility)*: pressing an app's shortcut again moves to its next window.
+- **Window placement** *(Accessibility)*: open an app at left half, right half, top half, bottom half, maximized or centered,
+  on the screen your pointer is on.
+- **App menu conflict scan** *(Accessibility)*: also warns when a combination is used in a running app's menus.
+- **Insights**: how often each link is used, shortcuts you never use, and apps you open often by hand without a
+  shortcut (with a one-click Add). Stats stay on your Mac.
+- **Automatic updates** via Sparkle.
+
+### Core
+
 - **Global shortcuts** for applications, URLs, files/folders, shell commands and Shortcuts.app shortcuts.
 - **Conflict checking** when you record a shortcut. QuickLaunch warns you if it is already used by:
   - another QuickLaunch link,
@@ -53,6 +75,12 @@ Requires macOS 14 Sonoma or later. QuickLaunch does not need Accessibility permi
 | File or Folder | Opens with its default app. `~` is allowed. |
 | Shell Command | Runs with `/bin/zsh -lc` in your home folder. You get a notification if it fails. |
 | Shortcuts.app Shortcut | Runs a shortcut from the Shortcuts app by name. |
+| Workspace | Opens several of your other links in order. |
+
+## Accessibility permission (optional)
+
+QuickLaunch's shortcuts never need it. Turn it on under **Settings › Accessibility** only if you want window
+cycling, window placement, or the app-menu conflict scan.
 
 ## iCloud sync
 
@@ -80,6 +108,10 @@ other apps; macOS offers no way to see those. Use *Test mode* to confirm a short
 
 **I hid the menu bar icon. How do I get back to QuickLaunch?**
 Open QuickLaunch again from Finder, Spotlight or Launchpad. The Manage window opens, and your shortcuts keep working the whole time.
+
+**How does the leader key pick letters?**
+A letter you set in the link editor always wins. Other links get the first unused letter of their name.
+The Manage window shows each link's letter once a leader shortcut is set.
 
 **Where are my settings stored?**
 `~/Library/Application Support/QuickLaunch/config.json` (Settings › About › Open Settings Folder).
