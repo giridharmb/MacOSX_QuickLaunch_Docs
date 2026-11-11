@@ -26,6 +26,8 @@
     <a href="#start">Getting started</a>
     <a href="#types">Link types</a>
     <a href="#conflicts">Conflicts &amp; testing</a>
+    <a href="#safety">Safety</a>
+    <a href="#perapp">App-specific shortcuts</a>
     <a href="#leader">Leader key</a>
     <a href="#launcher">Search launcher &amp; cheat sheet</a>
     <a href="#favorites">Favorites &amp; icons</a>
@@ -55,6 +57,7 @@
       <tr><td>Shell Command</td><td>Runs with <code>/bin/zsh -lc</code> in your home folder. You get a notification if it fails.</td></tr>
       <tr><td>Shortcuts.app Shortcut</td><td>Runs a shortcut from the Shortcuts app by name.</td></tr>
       <tr><td>Workspace</td><td>Opens several of your other links in order.</td></tr>
+      <tr><td>System Action</td><td>Start Screen Saver, Sleep Display, Sleep, Toggle Mute, Toggle Dark Mode or Empty Trash.</td></tr>
     </table></div>
 
     <h2 id="conflicts">Conflicts &amp; testing</h2>
@@ -77,12 +80,30 @@
     <p>Click the icon for details and a <strong>Test Now</strong> button. Nothing launches while a test is running.</p>
     <div class="callout warn">Some apps intercept keys in ways macOS doesn't reveal. The live test catches these: if your press never reaches QuickLaunch, it tells you to pick another combination.</div>
 
+    <h2 id="safety">Safety</h2>
+    <ul>
+      <li><strong>Shell commands need approval.</strong> A shell command runs only once it is approved on this Mac. Commands you type yourself are approved when you save. When you import a file, QuickLaunch shows the commands in it first. Commands that arrive through iCloud sync show <strong>Approve…</strong> on their row and don't run until you click it.</li>
+      <li><strong>Undo Delete</strong> appears at the bottom of the Manage window after you delete links or a group.</li>
+      <li><strong>Restore a Backup…</strong> (Settings › Advanced) lists the backups QuickLaunch saves before every import, restore and iCloud overwrite.</li>
+      <li><strong>Missing links.</strong> If a link's app or file isn't on this Mac, its row says “Not found on this Mac”. <strong>Locate…</strong> sets the location for this Mac only; other Macs that sync keep their own.</li>
+    </ul>
+
+    <h2 id="perapp">App-specific shortcuts &amp; “Open with”</h2>
+    <p>In the link editor, <strong>Shortcut works in › Only in…</strong> limits a shortcut to one app. The same combination can then do different things in different apps; outside that app the keys pass through as usual.</p>
+    <p>For URL and file links, <strong>Open with</strong> picks the app that opens them, instead of the default app or the browser chosen in Settings.</p>
+
     <h2 id="leader">Leader key</h2>
     <p>Set a leader shortcut in <strong>Settings › Shortcuts › Quick Access</strong>, for example <kbd>⌃⌥Space</kbd>. Press it, and an overlay shows one letter per link. Press that letter.</p>
     <p>Letters are picked from link names automatically. To choose your own, set <strong>Leader key</strong> in the link editor. The Manage window shows each link's letter.</p>
     <img src="images/leader.png" alt="Leader key overlay">
 
+    <p><strong>Nested groups.</strong> Right-click a group and choose <strong>Set Leader Key…</strong>. Its links then sit one level down: leader shortcut, the group's letter, then the link's letter. This keeps the overlay readable when you have many links.</p>
+    <p><strong>Double-tap ⌘</strong> can open the leader overlay, the launcher or the cheat sheet (Settings › Shortcuts). It needs the Accessibility permission and is in the direct-download version only.</p>
+
     <h2 id="launcher">Search launcher &amp; cheat sheet</h2>
+    <p><strong>Web search.</strong> Put <code>{query}</code> in a URL link, for example <code>https://www.google.com/search?q={query}</code> named “Google”. In the launcher type <kbd>google swift arrays</kbd> (the link's name or leader key, a space, then your search).</p>
+    <p><strong>Installed apps.</strong> The launcher also lists apps that aren't links yet. Press <kbd>↩</kbd> to open one, or click + to add it so you can give it a shortcut.</p>
+    <p><strong>Shortcuts app.</strong> Apple's Shortcuts app has a <strong>Run QuickLaunch Link</strong> action, so your own shortcuts and automations can open any link.</p>
     <p>The <strong>search launcher</strong> does fuzzy search over all your links. Use <kbd>↑</kbd> <kbd>↓</kbd> and <kbd>↩</kbd> to choose, or <kbd>⌘1</kbd>–<kbd>⌘9</kbd>. With nothing typed, it lists your most used links.</p>
     <p>The <strong>cheat sheet</strong> lists every shortcut by group. Press any key to close it.</p>
     <p>You can open both from the menu bar menu, or give each its own shortcut in Settings.</p>
@@ -126,7 +147,7 @@
       <tr><td>General</td><td>Launch at login, menu bar icon, Dock icon, recent items, groups as submenus, browser for URLs.</td></tr>
       <tr><td>Shortcuts</td><td>Leader, launcher and cheat-sheet shortcuts; hide or cycle behavior; confirmation overlay; test mode; per-app pausing.</td></tr>
       <tr><td>Sync</td><td>iCloud Drive sync and automatic updates.</td></tr>
-      <tr><td>Advanced</td><td>Accessibility permission, app-menu scan, settings folder, reset stats.</td></tr>
+      <tr><td>Advanced</td><td>Accessibility permission, app-menu scan, restore a backup, settings folder, reset stats.</td></tr>
       <tr><td>About</td><td>Version, links to these docs and support, report a problem.</td></tr>
     </table></div>
     <p><img src="images/prefs-shortcuts.png" alt="Shortcuts settings"></p>

@@ -1,5 +1,23 @@
 # Release Notes
 
+## 1.5.0 — 2026-11-10
+
+- **Shell command approval:** shell commands run only once approved on this Mac. Import shows the commands in a file before you decide, and commands arriving through iCloud sync wait for an **Approve…** click. Commands you already have are approved automatically.
+- **Undo Delete:** bring back links or a group you just deleted.
+- **Restore a Backup:** Settings › Advanced lists the automatic backups, with dates.
+- **Missing links:** a link whose app or file is gone says so, with **Locate…** to point it at the right place on this Mac only, so synced links keep working on your other Macs.
+- **Automatic re-check:** shortcut statuses refresh when other apps launch or quit.
+- **First run:** **Add My Dock Apps** adds your Dock apps with suggested, conflict-checked shortcuts.
+- **System actions:** a new link type: Start Screen Saver, Sleep Display, Sleep, Toggle Mute, Toggle Dark Mode, Empty Trash.
+- **Shortcuts app:** a **Run QuickLaunch Link** action for Apple's Shortcuts app.
+- **Web search in the launcher:** put `{query}` in a URL link, then type the link's name or leader key, a space and your search.
+- **Installed apps in the launcher:** apps that aren't links show up too, with a + button to add them.
+- **Open with:** choose the app that opens a URL or file link.
+- **App-specific shortcuts:** limit a shortcut to one app, so the same combination can do different things in different apps.
+- **Nested leader keys:** give a group its own letter: leader shortcut, group letter, link letter.
+- **Double-tap ⌘:** opens the leader overlay, launcher or cheat sheet (needs Accessibility).
+- Settings files containing a system action can't be read by 1.4.1 or older: update all your Macs before syncing one.
+
 ## 1.4.1 — 2026-10-24
 
 - Fixed: a big empty gap under the first link in the Manage window.
