@@ -4,13 +4,13 @@
     <title>QuickLaunch</title>
     <link>https://github.com/giridharmb/MacOSX_QuickLaunch_Docs</link>
     <item>
-      <title>Version 1.4.1</title>
-      <pubDate>Sat, 24 Oct 2026 20:55:34 +0000</pubDate>
-      <sparkle:version>6</sparkle:version>
-      <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+      <title>Version 1.5.0</title>
+      <pubDate>Wed, 11 Nov 2026 01:13:34 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <sparkle:releaseNotesLink>https://giridharmb.github.io/MacOSX_QuickLaunch_Docs/releases.html</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/giridharmb/MacOSX_QuickLaunch_Docs/releases/download/v1.4.1/QuickLaunch-1.4.1.zip" sparkle:edSignature="0G4SkhWK5O7C+ZQ12p/DNyaBQBvR18Q7pPHmqyQoQD/bl3oBsMXKeaiAPqBluO2BpedmXpn2D+rHlEBiB31bDQ==" length="3020092" type="application/octet-stream"/>
+      <enclosure url="https://github.com/giridharmb/MacOSX_QuickLaunch_Docs/releases/download/v1.5.0/QuickLaunch-1.5.0.zip" sparkle:edSignature="RkPRva3QUakKwlDk5BOmwjEexBjTd647vmeBzok9nPDtVraU8BjRBlK0pShj7PJswsQ5vTFlMX61+RDSPTAEBA==" length="3180481" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
