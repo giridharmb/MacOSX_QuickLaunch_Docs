@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.5.1 — 2026-11-19
+
+- New colored menu bar icon in the app icon's colors, easy to spot in light and dark menu bars.
+
 ## 1.5.0 — 2026-11-10
 
 - **Shell command approval:** shell commands run only once approved on this Mac. Import shows the commands in a file before you decide, and commands arriving through iCloud sync wait for an **Approve…** click. Commands you already have are approved automatically.
